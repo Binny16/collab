@@ -1,0 +1,14 @@
+127.0.0.1 - - [28/Oct/2018:17:58:15 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [28/Oct/2018:17:58:53 +0530] "GET /middleware_Collab/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [28/Oct/2018:18:06:13 +0530] "POST /middleware_Collab/addjob HTTP/1.1" 400 1127
+0:0:0:0:0:0:0:1 - - [28/Oct/2018:18:09:05 +0530] "POST /middleware_Collab/addjob HTTP/1.1" 400 1127
+0:0:0:0:0:0:0:1 - - [28/Oct/2018:18:09:21 +0530] "POST /middleware_Collab/getalljob HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [28/Oct/2018:18:10:19 +0530] "POST /middleware_Collab/addjob HTTP/1.1" 400 1127
+0:0:0:0:0:0:0:1 - - [28/Oct/2018:18:10:58 +0530] "POST /middleware_Collab/register HTTP/1.1" 500 5377
+0:0:0:0:0:0:0:1 - - [28/Oct/2018:18:12:13 +0530] "POST /middleware_Collab/register HTTP/1.1" 500 94
+0:0:0:0:0:0:0:1 - - [28/Oct/2018:18:13:16 +0530] "POST /middleware_Collab/addjob HTTP/1.1" 401 78
+0:0:0:0:0:0:0:1 - - [28/Oct/2018:18:14:12 +0530] "POST /middleware_Collab/login HTTP/1.1" 405 1115
+0:0:0:0:0:0:0:1 - - [28/Oct/2018:18:15:02 +0530] "POST /middleware_Collab/getalljob HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [28/Oct/2018:18:15:47 +0530] "PUT /middleware_Collab/login HTTP/1.1" 200 155
+0:0:0:0:0:0:0:1 - - [28/Oct/2018:18:25:58 +0530] "POST /middleware_Collab/register HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [28/Oct/2018:18:26:48 +0530] "PUT /middleware_Collab/login HTTP/1.1" 200 154

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.niit.model.Nortification.java&apos; to &apos;Notification.java&apos;&#x0D;&#x0A;- Original project: &apos;Collaboration_Backend&apos;&#x0D;&#x0A;- Original element: &apos;com.niit.model.Nortification.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.niit.model.Notification.java&apos;" description="Rename compilation unit &apos;Nortification.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java&lt;com.niit.model{Nortification.java" name="Notification.java" references="false" stamp="1542798003476" version="1.0"/>
+</session>

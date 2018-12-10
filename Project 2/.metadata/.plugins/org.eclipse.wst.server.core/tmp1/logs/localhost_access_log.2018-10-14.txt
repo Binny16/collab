@@ -1,0 +1,11 @@
+127.0.0.1 - - [14/Oct/2018:13:14:47 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [14/Oct/2018:13:15:24 +0530] "GET /Frontend_Collab/index.html HTTP/1.1" 200 2237
+0:0:0:0:0:0:0:1 - - [14/Oct/2018:13:15:25 +0530] "GET /Frontend_Collab/js/app.js HTTP/1.1" 200 392
+0:0:0:0:0:0:0:1 - - [14/Oct/2018:13:15:25 +0530] "GET /Frontend_Collab/resources/images/niit.jpg HTTP/1.1" 404 1127
+0:0:0:0:0:0:0:1 - - [14/Oct/2018:13:15:25 +0530] "GET /Frontend_Collab/controllers/usercontroller.js HTTP/1.1" 200 980
+0:0:0:0:0:0:0:1 - - [14/Oct/2018:13:15:25 +0530] "GET /Frontend_Collab/services/userservice.js HTTP/1.1" 200 500
+0:0:0:0:0:0:0:1 - - [14/Oct/2018:13:15:27 +0530] "GET /Frontend_Collab/views/home.html HTTP/1.1" 200 18
+0:0:0:0:0:0:0:1 - - [14/Oct/2018:13:15:33 +0530] "GET /Frontend_Collab/views/login.html HTTP/1.1" 200 294
+0:0:0:0:0:0:0:1 - - [14/Oct/2018:13:16:04 +0530] "PUT /middleware_Collab/login HTTP/1.1" 200 155
+0:0:0:0:0:0:0:1 - - [14/Oct/2018:13:16:04 +0530] "PUT /middleware_Collab/login HTTP/1.1" 200 155
+0:0:0:0:0:0:0:1 - - [14/Oct/2018:13:16:15 +0530] "PUT /middleware_Collab/logout HTTP/1.1" 200 -

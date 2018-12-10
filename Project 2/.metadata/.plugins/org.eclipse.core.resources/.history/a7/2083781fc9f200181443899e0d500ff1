@@ -1,0 +1,40 @@
+ <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+ <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+ <link rel="stylesheet" href="assets/css/form-elements.css">
+ <link rel="stylesheet" href="assets/css/style.css">
+<div class="col-sm-8 col-sm-offset-2 text">
+<strong>Get All Jobs</strong>      
+</div>
+<div class="container">
+<input type="text" ng-model="searchTxt">
+	<div class="panel panel-info">
+		<div class="panel-heading">Job Details</div>
+		<div class="panel-body">
+			<ul style="list-style: none;">
+             <li ng-repeat="job in jobs | orderBy :'-postedOn' | filter:searchTxt">
+            <b>Job Title:</b>{{job.jobTitle}}<br>
+             <b>Posted On:</b>{{job.postedOn | date : 'MM-dd-yyyy'}}<br>
+             <b>Skills Required:</b>{{job.skillsRequired}}<br>
+             <a ng-click="showDetails(job.id)" ng-hide="isClicked && jobId==job.id">Show more details</a>
+             <div ng-show="isClicked && jobId==job.id">
+             <b>Job Description:</b>{{job.jobDescription}}<br>
+             <b>Location : </b>{{job.location}}<br>
+             <b>Salary : </b>{{job.salary}}<br>
+             <b>Company Name: </b>{{job.companyName}}<br>
+             <a ng-click="showDetails(job.id)" ng-show="isClicked && jobId==job.id">Hide more details</a>
+             </div>
+             <hr>
+             </li>
+			</ul>
+		</div>
+	</div>
+</div>
+ <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->

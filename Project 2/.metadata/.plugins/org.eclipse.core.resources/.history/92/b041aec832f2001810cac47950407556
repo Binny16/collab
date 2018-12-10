@@ -1,0 +1,86 @@
+<html lang="en">
+
+    <head>
+   <title>Login Form</title>
+        
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+     <body>
+
+        <!-- Top content -->
+        <div class="top-content">
+        	
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2 text">
+                            <strong>Job Form</strong>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3 form-box">
+                        	<div class="form-top">
+                        		<div class="form-top-right">
+                        			<i class="fa fa-key"></i>
+                        		</div>
+                            </div>
+                            <div class="form-bottom">
+<div ng-show="user.role!='ADMIN'">Access denied..</div>
+<div ng-show="user.role=='ADMIN'">
+<form role="form"  class="login-form">
+<div class="form-group">
+<label class="sr-only" for="form-username">Enter Job Title</label>
+<input type="text" name="form-username" placeholder="Job Title..." class="form-username form-control" id="form-username" ng-model="job.jobTitle">
+</div>
+<div class="form-group">
+<label class="sr-only" for="form-username">Enter Job Description</label>
+<input type="text" name="form-username" placeholder="Job Description..." class="form-username form-control" id="form-username" ng-model="job.jobDescription">
+</div>
+<div class="form-group">
+<label class="sr-only" for="form-username">Enter Job Location</label>
+<input type="text" name="form-username" placeholder="Job Location..." class="form-username form-control" id="form-username" ng-model="job.location">
+</div>
+<div class="form-group">
+<label class="sr-only" for="form-username">Enter Salary</label>
+<input type="text" name="form-username" placeholder="Job Salary..." class="form-username form-control" id="form-username" ng-model="job.salary">
+</div>
+<div class="form-group">
+<label class="sr-only" for="form-username">Enter Skills Required</label>
+<input type="text" name="form-username" placeholder="Job Skills Required..." class="form-username form-control" id="form-username" ng-model="job.skillsRequired">
+</div>
+<div class="form-group">
+<label class="sr-only" for="form-username">Enter Skills Required</label>
+<input type="text" name="form-username" placeholder="Job Skills Required..." class="form-username form-control" id="form-username" ng-model="job.skillsRequired">
+</div>
+<div class="form-group">
+<label class="sr-only" for="form-username">Enter Skills Required</label>
+<input type="text" name="form-username" placeholder="Job Skills Required..." class="form-username form-control" id="form-username" ng-model="job.skillsRequired">
+</div>
+<div class="form-group">
+<label class="sr-only" for="form-username">Enter Years of Exp</label>
+<input type="text" name="form-username" placeholder="Job Skills Required..." class="form-username form-control" id="form-username" ng-model="job.yrsOfExp">
+</div>
+<div class="form-group">
+<label class="sr-only" for="form-username">Enter Company name</label>
+<input type="text" name="form-username" placeholder="Job CompanyName..." class="form-username form-control" id="form-username" ng-model="job.companyName">
+</div>
+<button class="btn" ng-click="addJob(job)">Add Job</button>
+</form>
+</div>
+</div>
+                        </div>
+                    </div>
+					        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        </body>
+
+</html>
+        
+        

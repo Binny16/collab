@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Nov 29 12:13:41 IST 2018
+org.eclipse.jst.j2ee.server\:Collaboration_Backend=WEB-INF/lib/Collaboration_Backend-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\Abhi\\.m2\\repository\\org\\springframework\\spring-web\\4.2.5.RELEASE\\spring-web-4.2.5.RELEASE.jar=WEB-INF/lib/spring-web-4.2.5.RELEASE.jar

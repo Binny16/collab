@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+F:\Website on Ecommerce\Project 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2263249824.index
+\middleware_Collaboration\src\main\java
+F:\Website on Ecommerce\Project 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1247696265.index
+\middleware_Collab\src\main\java
+F:\Website on Ecommerce\Project 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\305673969.index
+\middleware_Collab\src\main\resources
+F:\Website on Ecommerce\Project 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\976574758.index
+\middlewareCollab\src\main\resources
+F:\Website on Ecommerce\Project 2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1274666882.index
+\middleware_Collaboration\src\main\resources

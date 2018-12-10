@@ -1,0 +1,57 @@
+<html lang="en">
+
+    <head>
+   <title>Registration Form</title>
+        
+    </head>
+     <body>
+     
+ 					        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+                            <link rel="stylesheet" type="text/css" href="resources/css/r.css">
+        
+</head>
+<body>
+
+       <div>
+      <div id="rightbod">
+        <div class="signup bolder">Sign Up</div>
+        <div class="free bolder"></div>
+        
+        <div class="formbox">
+        <label class="sr-only" for="form-username">Email</label>
+	    <input type="text" name="form-username" placeholder="Username..." class="form-username form-control" id="form-username" ng-model="user.email">
+        </div>
+        
+        <div class="formbox">
+       	 <label class="sr-only" for="form-password">Password</label>
+	     <input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password" ng-model="user.password">
+	   </div>
+	   
+          <div class="formbox">
+        	<label class="sr-only" for="form-username">Phonenumber</label>
+	    	<input type="text" name="form-username" placeholder="Phonenumber..." class="form-username form-control" id="form-username" ng-model="user.phonenumber">
+	      </div>     
+	      
+	       <div class="formbox">
+        <label class="sr-only" for="form-username">Firstname</label>
+	    <input type="text" name="form-username" placeholder="Firstname..." class="form-username form-control" id="form-username" ng-model="user.firstname">
+        <label class="sr-only" for="form-username">Lastname</label>
+	    <input type="text" name="form-username" placeholder="Lastname..." class="form-username form-control" id="form-username" ng-model="user.lastname">
+        </div>
+        
+         Select Role:<select ng-model="user.role">
+                                     <option value="STUDENT">Student
+                                     <option value="EMPLOYEE">Employee
+                                     <option value="ALUMNI">Alumni
+                                     </select>
+        
+            
+            <div class="formbox">
+               <button  ng-click="registration(user)"  class="btn">Sign Up</button>
+            </div>
+        
+      </div>
+     </div>
+    </div>
+    </div>
+    </body></html>
